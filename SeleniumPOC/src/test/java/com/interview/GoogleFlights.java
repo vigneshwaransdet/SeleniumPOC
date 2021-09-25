@@ -11,7 +11,7 @@ public class GoogleFlights {
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/travel/flights");
-		driver.manage().windows().maximize();
+// 		driver.manage().windows().maximize();
 		
 //		To select trip
 		driver.findElement(By.xpath("//*[@class='RLVa8 GeHXyb']//span[@class='VfPpkd-kBDsod UmgCUb']")).click();
