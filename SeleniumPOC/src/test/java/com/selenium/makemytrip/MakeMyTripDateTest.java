@@ -24,7 +24,7 @@ public class MakeMyTripDateTest {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.makemytrip.com/"); 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 		
 		driver.findElement(By.xpath("//input[@id='hp-widget__depart']")).click();
 		Thread.sleep(2000);
